@@ -28,6 +28,7 @@ class RegistroActivity : AppCompatActivity() {
         val email = findViewById<EditText>(R.id.emailEditText)
         val password = findViewById<EditText>(R.id.passwordEditText)
         val btnRegister = findViewById<Button>(R.id.registerButton)
+        val btnToLogin = findViewById<Button>(R.id.backToLoginButton)
 
         btnRegister.setOnClickListener {
             val nameText = name.text.toString()
@@ -47,6 +48,10 @@ class RegistroActivity : AppCompatActivity() {
                     Toast.makeText(this, "Error: ${it.exception?.message}", Toast.LENGTH_LONG).show()
                 }
             }
+        }
+
+        btnToLogin.setOnClickListener {
+            startActivity(Intent(this, LoginActivity::class.java))
         }
     }
 }

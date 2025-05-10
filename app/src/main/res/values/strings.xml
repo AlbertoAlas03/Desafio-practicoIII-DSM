@@ -1,3 +1,21 @@
 <resources>
-    <string name="app_name">Desafio-practicoIII-DSM</string>
+    <string name="app_name">Recursos Don Bosco</string>
+    <string name="close_sesion">Cerrar sesión</string>
+    <string name="login">Iniciar Sesión</string>
+    <string name="register">Registrarse</string>
+    <string name="email">Correo eléctronico</string>
+    <string name="password">Contraseña</string>
+    <string name="full_name">Nombre completo</string>
+    <string name="back">Volver al login</string>
+    <string name="list_all">Listar todo</string>
+    <string name="search">Buscar</string>
+    <string name="add">Agregar</string>
+    <string name="title">Título</string>
+    <string name="description">Descripción</string>
+    <string name="type">Tipo</string>
+    <string name="url">Enlace (URL)</string>
+    <string name="url_image">URL de la imagen</string>
+    <string name="recurso">ID del recurso</string>
+    <string name="edit">Editar</string>
+    <string name="delete">Eliminar</string>
 </resources>
